@@ -1,0 +1,1 @@
+Developing a mobile application for the State Polytechnic of Lhokseumawe, using the official university website as a reference, specifically focusing on the Department of Mechanical Engineering, and implementing it using the Java programming language.
