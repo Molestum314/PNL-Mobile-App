@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PNL Mobile</string>
+    <string name="welcome_message">Selamat datang di aplikasi!</string>
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="welcome_text">Welcome to Home Activity</string>
+    <string name="description_text">This is the home page of the application. You can place content here.</string>
+    <string name="button_action_text">Selengkapnya</string>
+    <string name="home">Home</string>
+    <string name="visi">Visi Misi</string>
+    <string name="dosen">Dosen</string>
+    <string name="capaian">Capaian</string>
+
+</resources>

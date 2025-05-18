@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        android:background="@drawable/nav_item_selector" /> <!-- Gunakan selector -->
+    <item
+        android:id="@+id/nav_visi"
+        android:icon="@drawable/ic_visi"
+        android:title="@string/visi"
+        android:background="@drawable/nav_item_selector" />
+    <item
+        android:id="@+id/nav_dosen"
+        android:icon="@drawable/ic_dosen"
+        android:title="@string/dosen"
+        android:background="@drawable/nav_item_selector" />
+    <item
+        android:id="@+id/nav_capaian"
+        android:icon="@drawable/ic_capaian"
+        android:title="@string/capaian"
+        android:background="@drawable/nav_item_selector" />
+</menu>

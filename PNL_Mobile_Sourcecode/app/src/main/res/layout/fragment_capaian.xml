@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/capaianpage"
+            android:layout_width="420dp"
+            android:layout_height="900dp"
+            android:src="@drawable/capaianpage"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:src="@drawable/headerimage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="110dp"/>
+
+        <ImageView
+            android:id="@+id/capaianbel"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:src="@drawable/capaianbel"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="-29dp"
+            android:layout_marginTop="300dp"/>
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="1. Mengembangkan kurikulum yang sesuai dengan perkembangan terbaru di bidang Bisnis, Akuntansi, dan Ekonomi Syariah. Ini termasuk integrasi teknologi informasi dan pembaruan materi ajar yang mencerminkan kebutuhan industri. Kurikulum akan dirancang untuk meningkatkan keterampilan teknis dan soft skills mahasiswa, mempersiapkan mereka untuk menghadapi tantangan global.\n\n2. Melibatkan peningkatan kemampuan dosen dan staf melalui pelatihan berkelanjutan, workshop, dan seminar. Program pengembangan profesional ini bertujuan untuk memastikan dosen memiliki pengetahuan terbaru dan keterampilan yang diperlukan untuk mengajar dengan efektif. Selain itu, pemberdayaan staf administratif akan mendukung kelancaran operasional jurusan.\n\n3. Berinvestasi dalam peningkatan infrastruktur pendidikan dan teknologi, termasuk perangkat keras, perangkat lunak, dan fasilitas fisik. Ini mencakup pembaruan ruang kelas, laboratorium, dan pengembangan platform pembelajaran daring untuk mendukung proses belajar mengajar dan penelitian.\n\n4. Membangun dan memperkuat kerjasama dengan berbagai mitra, termasuk industri, pemerintah, dan lembaga pendidikan lainnya. Jurusan akan menjalin kemitraan strategis untuk program magang, riset, dan pengembangan kurikulum yang relevan dengan kebutuhan pasar. Kemitraan ini akan meningkatkan relevansi pendidikan dan peluang kerja bagi lulusan.\n\n5. Menetapkan indikator kinerja utama (IKU) untuk memantau dan mengevaluasi pencapaian tujuan. Evaluasi kinerja akan dilakukan secara rutin untuk menilai efektivitas strategi yang diterapkan. Umpan balik dari pemangku kepentingan, termasuk mahasiswa dan mitra industri, akan digunakan untuk melakukan penyesuaian yang diperlukan.\n\n6. Mendorong penelitian yang berfokus pada inovasi bisnis dan solusi praktis untuk masalah yang dihadapi masyarakat. Program pengabdian masyarakat akan difokuskan pada pemberdayaan komunitas lokal dan kontribusi terhadap pembangunan ekonomi daerah. Penelitian dan pengabdian akan dilakukan dengan melibatkan mahasiswa dan dosen untuk menciptakan dampak yang positif.\n\n7. Memperkuat manajemen internal dengan menerapkan prinsip akuntabilitas dan transparansi dalam pengelolaan keuangan dan administrasi. Sistem administrasi dan keuangan akan diperbarui untuk memastikan efisiensi dan keterbukaan dalam operasional jurusan. Proses administrasi yang baik akan mendukung pencapaian tujuan strategis.\n\n8. Mempromosikan kewirausahaan di kalangan mahasiswa dengan menyediakan pelatihan, inkubasi bisnis, dan dukungan untuk usaha start-up. Program ini akan mencakup mentoring, akses ke sumber daya, dan peluang jaringan untuk membantu mahasiswa dan lulusan memulai dan mengembangkan bisnis.\n\n9. Menerapkan prinsip-prinsip good governance dalam semua aspek operasional, termasuk akuntabilitas, transparansi, dan partisipasi. Ini melibatkan pengembangan kebijakan dan prosedur yang memastikan pengelolaan yang baik dan etis serta mendukung pencapaian visi dan misi jurusan."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/headerImage"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"/>
+
+
+        <ImageView
+            android:id="@+id/extraLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            app:layout_constraintTop_toBottomOf="@id/headerText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="30dp"
+            android:alpha="0"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/tujuanjurusanfull"
+            android:layout_width="420dp"
+            android:layout_height="900dp"
+            android:src="@drawable/tujuanjurusanfull"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:background="@drawable/butback1"
+            app:layout_constraintTop_toBottomOf="@id/tujuanjurusanfull"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="-835dp"/>
+
+        <TextView
+            android:id="@+id/headerTextjur"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="1. Menghasilkan lulusan yang memiliki keahlian terapan dalam bidang teknik mesin.\n\n2. Mengupayakan terciptanya akademik atmosfer yang mendukung keberlangsungan proses belajar mengajar yang baik.\n\n3. Menghasilkan produk terapan dan pengabdian kepada masyarakat yang bermanfaat bagi masyarakat dan institusi.\n\n4. Menghasilkan manajemen pengelolaan dan pengoperasian Jurusan Teknik Mesin yang profesional dan berstandar bermutu.\n\n5. Meningkatkan kualitas dan kompetensi sumber daya manusia Jurusan Teknik Mesin.\n\n6. Menghasilkan laboratorium bersertifikasi yang dapat dimanfaatkan sebagai tempat Uji Kompetensi (TUK).\n\n7. Mempersiapkan lulusan yang memiliki kemampuan berwirausaha dan berperilaku mulia.\n\n8. Terjalin kerja sama dengan institusi pemerintah, industri dan perguruan tinggi, baik dalam negeri maupun luar negeri."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/buttonback"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="140dp"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"/>
+
+        <ImageView
+            android:id="@+id/extraLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            app:layout_constraintTop_toBottomOf="@id/headerTextjur"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="-50dp"
+            android:alpha="0"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

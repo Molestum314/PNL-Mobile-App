@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/tentangprodifull"
+        android:layout_width="420dp"
+        android:layout_height="900dp"
+        android:src="@drawable/tentangprodifull"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:background="@drawable/butback1"
+        app:layout_constraintTop_toBottomOf="@id/tentangprodifull"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-835dp"/>
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Jurusan teknik mesin mempersiapkan mahasiswa agar mampu memahami dan menerapkan aplikasi desain dan manufaktur, welding dan fabrikasi, pengoperasian dan pemeliharaan mesin, dan efesiensi dan sistem industri, serta aplikasi teknologi terkait di berbagai industri."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/buttonback"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginHorizontal="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:justificationMode="inter_word"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

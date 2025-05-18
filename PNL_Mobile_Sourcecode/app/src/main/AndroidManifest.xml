@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pnl"> <!-- Package name sesuai dengan yang ada di build.gradle -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pnl">
+
+        <!-- MainActivity as Launcher Activity -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HomeActivity -->
+        <activity android:name=".HomeActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+        <!-- VisiActivity -->
+        <activity android:name=".VisiActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+        <!-- DosenActivity -->
+        <activity android:name=".DosenActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+        <!-- CapaianActivity -->
+        <activity android:name=".CapaianActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+        <!-- TentangJurusanActivity -->
+        <activity android:name=".TentangJurusanActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+        <!-- TentangProdiActivity -->
+        <activity android:name=".TentangProdiActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+        <!-- TujuanJurusanActivity -->
+        <activity android:name=".TujuanJurusanActivity"
+            android:exported="true"> <!-- Set exported to true for accessibility -->
+        </activity>
+
+    </application>
+
+</manifest>

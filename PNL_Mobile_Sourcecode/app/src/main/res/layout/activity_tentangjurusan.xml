@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/tentangjurusanfull"
+            android:layout_width="420dp"
+            android:layout_height="900dp"
+            android:src="@drawable/tentangjurusanfull"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"/>
+
+        <!-- Button dengan margin yang sudah diperbaiki -->
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:background="@drawable/butback1"
+            app:layout_constraintTop_toBottomOf="@id/tentangjurusanfull"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="-835dp"/>
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Jurusan Teknik Mesin (JTM) berdiri pada tahun 1987 bersama-sama dengan Jurusan Teknik Sipil dan Teknik Kimia dibawah naungan Politeknik Universitas Syiah Kuala yang kemudian berubah namanya menjadi Politeknik Negeri Lhokseumawe pada tanggal 5 Oktober 1987 berdasarkan Surat Keputusan Mendikbud No. 100/O/1997 tanggal 9 Mei 1997. Sejak pendiriannya sampai tahun 2009 JTM hanya terdiri dari 1 (satu) program studi, yakni Program Studi D-III Teknik Mesin. Di tahun 2010 JTM terjadi penambahan program studi D-IV Sarjana Terapan Teknik Mesin Produksi dan Perawatan. Selanjutnya pada tahun 2015 terjadi penambahan program studi D-III Mesin Industri. Hingga akhir tahun 2017 JTM telah memiliki 3 program studi. JTM sebagai salah satu jurusan yang responsif terhadap perkembangan dinamika industri dan globalisasi yang mengemban amanat Pendidikan Nasional untuk melaksanakan fungsi Tridarma perguruan tinggi, JTM berupaya melahirkan lulusan berkualitas dan berdaya saing dengan Visinya menjadi jurusan unggulan dalam bidang Ilmu Teknik Mesin untuk menyiapkan tenaga profesional yang adaptif terhadap perubahan IPTEK serta berdaya saing Nasional dan Global."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@id/buttonback"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="140dp"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"/>
+
+        <ImageView
+            android:id="@+id/extraLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            app:layout_constraintTop_toBottomOf="@id/headerText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="-50dp"
+            android:alpha="0"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
